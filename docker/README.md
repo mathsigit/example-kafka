@@ -29,6 +29,16 @@ Set environment parameter:
 
 - ```export DOCKER_KAFKA_HOST=$(ipconfig getifaddr en0)```
 
+Environment:
+
+- OS: Linux/MacOs
+- Java jdk: 8+
+
+
+Set environment parameter: 
+
+- ```export DOCKER_KAFKA_HOST=$(ipconfig getifaddr en0)```
+
 Start a cluster:
 
 - ```docker-compose up -d ```
