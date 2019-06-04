@@ -13,5 +13,4 @@ task copyRuntimeLibs(type: Copy) {
     into "build/libs"
     from configurations.compile
 }
-
 build.dependsOn('copyRuntimeLibs')
