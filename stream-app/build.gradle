@@ -8,7 +8,6 @@ dependencies {
     compile "org.apache.kafka:kafka-streams:$kafkaVersion"
     compile "org.apache.kafka:kafka_$scalaVersion:$kafkaVersion"
 }
-
 task copyRuntimeLibs(type: Copy) {
     into "build/libs"
     from configurations.compile
